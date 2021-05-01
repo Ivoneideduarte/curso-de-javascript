@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tratamento de dados</title>
+    <style>
+        body {
+            background-color: rgb(255, 140, 140);
+            color: white;
+            font: normal 20pt Arial;
+        }
+        h1 {
+            color: rgb(164, 248, 153);
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Já me livrei da maldição!</p>
+
+    <script>
+       var n1 = Number(window.prompt('Digite um número: '))
+       var n2 = Number(window.prompt('Digite outro número: '))
+       var s = n1 + n2
+       window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`)
+       
+       // (number + number) para adição
+       // (string + string) para concatenação
+
+       /*
+       String -> Número
+            Number.parseInt(n)
+            Number.parseFloat(n)
+            Number()
+        Número -> String
+            String(n)
+            n.toString() // Passa um valor pra string
+       */
+
+       /*
+       Formatando Strings
+
+       var s = 'JavaScript'
+       'Eu estou estudando s'       // Não faz interpolação
+        'Eu estou aprendendo ' + s  // Usa concatenação
+        `Eu estou aprendendo ${s}`  // Usa template string (placeholder ${})
+
+        s.length // Quantos caracteres a string tem
+        s.toUpperCase() // Tudo para 'MAIÚSCULAS'
+        s.toLowerCase() // Tudo para 'MINÚSCULAS'
+       */
+    </script>
+</body>
+</html>
