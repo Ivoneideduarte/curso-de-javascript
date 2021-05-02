@@ -5,8 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primeiros passos com o DOM</title>
+    <style>
+        body {
+            background: rgb(155, 153, 255);
+            color: white;
+            font: normal 15pt Arial;
+        }
+    </style>
 </head>
 <body>
     <h1>Iniciando estudos com o DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
+    <div id="msg">Clique em mim</div>
+
+    <script>
+        /* DOM - Document Object Model */
+        /*
+        Árvore DOM
+        * Selecionando:
+            - por Marca     getElementsByTagName()[] // Com mais de um objeto é necessário usar [posição]
+            - por ID        getElementById()
+            - por Nome      getElementsByName()[]
+            - por Classe    getElementsByClassName()
+            - por Seletor   querySelector() | querySelectorAll()
+        */
+        
+        var corpo = document.body
+        var p1 = document.getElementsByTagName('p')[1] // Pega o valor do primeiro parágrafo
+        var d = document.getElementById('msg')
+
+        document.write(`Está escrito assim: ${p1.innerText} <br/>`) // Mostra o texto que está dentro do primeiro parágrafo sem formatação HTML
+        p1.style.color = 'blue'
+        corpo.style.background = 'black'
+        document.write(`Agora está escrito assim: ${p1.innerHTML}`) // Pega as formatações em HTML
+        d.style.background = 'green'
+        d.innerText = 'Estou aguardando...'
+        /*
+        var d = document.querySelector('div#msg')
+        d.style.color = 'blue'
+        */
+    </script>
 </body>
 </html>
