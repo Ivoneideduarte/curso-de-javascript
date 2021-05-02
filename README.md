@@ -1,5 +1,5 @@
 # Curso de JavaScript
-Curso completo de JavaScript.
+Curso completo de JavaScript utilizando o VSCode.
 
 ## Link para instalar o Node.JS
 https://nodejs.org/en/
