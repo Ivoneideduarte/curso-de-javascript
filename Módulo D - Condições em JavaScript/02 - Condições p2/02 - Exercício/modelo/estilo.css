@@ -17,6 +17,11 @@ section {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.397);
 }
 
+div {
+    text-align: center;
+    padding: 5px;
+}
+
 footer {
     color: white;
     text-align: center; /* Centraliza o conteúdo na tela */
