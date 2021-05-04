@@ -11,4 +11,8 @@ Apertar as teclas `ctrl + shift + p` e ativar o Live Server no 'Open with Live S
 ## Link para baixar fotos gratuítas pelo Pexels
 
 https://www.pexels.com/pt-br/
+
+## Link para adicionar emojis no JS
+`u/{código}`
+http://www.unicode.org/emoji/charts/full-emoji-list.html
     
