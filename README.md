@@ -5,8 +5,8 @@ Curso completo de JavaScript utilizando o VSCode.
 https://nodejs.org/en/
 
 ## Extensões do VSCode
-Instalar a extensão 'Live Server' e 'Node.js Exec'
-Apertar as telcas `ctrl + shift + p` e ativar o Live Server no 'Open with Live Server'.
+Instalar as extensões **Live Server** e **Node.js Exec**
+Apertar as teclas `ctrl + shift + p` e ativar o Live Server no 'Open with Live Server'.
 
 ## Link para baixar fotos gratuítas pelo Pexels
 
